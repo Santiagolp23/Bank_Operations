@@ -2,7 +2,7 @@
 import java.util.Scanner;
 import java.time.LocalDate;
 
-class DatosBancarios {
+class BankingData {
 
     private int numeroCuenta;
     private String nombre;
@@ -155,13 +155,14 @@ class DatosBancarios {
     }
 
     public static void main(String[] args) throws Exception {
-                DatosBancarios estatico = new DatosBancarios
+        BankingData estatico = new BankingData();
+        Scanner scan = new Scanner(System.in);
         
         System.out.println("Bienvenido al Banco Taza de Café");
         System.out.println("Por favor cree su cuenta antes de continuar:");
         estatico.abrirCuenta();
         System.out.println("Seleccione la operación que desea realizar: \n" + "1. Hacer depósito de dinero \n" +"2. Hacer retiro de dinero \n" + "3. Mostrar datos de la cuenta");
-        operacion = scan.nextInt();
+        estatico.operacion = scan.nextInt();
     }
 
 }
