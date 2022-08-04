@@ -9,6 +9,7 @@ class BankingData {
     private String apellido;
     private String tipoCuenta;
     private float balance;
+
     private int porcentaje;
     private LocalDate antiguedad;
     private boolean empleado;
