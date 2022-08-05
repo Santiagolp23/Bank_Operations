@@ -1,6 +1,6 @@
-public class savingsAccount extends Account{
+public class SavingsAccount extends Account{
     private String percentage;
-    public savingsAccount(User accountOwner) {
+    public SavingsAccount(User accountOwner) {
         super(accountOwner);
     }
 

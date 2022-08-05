@@ -17,7 +17,7 @@ public abstract class Account {
         System.out.println("The owner of the account is: " + accountOwner.firstName + " " + accountOwner.lastName);
         System.out.println("The account number is: " + accountNumber);
         System.out.println("The type of account is: ");
-        if (this instanceof investmentsAccount){
+        if (this instanceof InvestmentsAccount){
             System.out.println("Investments Account");
         } else {
             System.out.println("Savings Account");
