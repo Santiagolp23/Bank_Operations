@@ -4,9 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/src">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/accounts" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/users" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="temurin-18" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
