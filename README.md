@@ -21,12 +21,6 @@ Java 8 and Git installed
 
 ### Installation
 
-Create an empty folder and initialize a Git repository
-
-```bash
-git init
-```
-
 Clone this repository
 ```bash
 git clone https://github.com/Santiagolp23/Bank_Operations
@@ -38,7 +32,7 @@ Change the working directory to the production folder
 ```bash
 cd ./out/production/Bank_Operations
 ```
-Run Main.java
+Run Main class
 ```bash
 Java Main
 ```
